@@ -7,4 +7,4 @@ RUN /root/torch/install/bin/luarocks install loadcaffe
 
 WORKDIR /root/torch/neural-style
 VOLUME /root/torch/neural-style/models
-VOLUME /root/touch/neural-style/images
+VOLUME /root/torch/neural-style/images
